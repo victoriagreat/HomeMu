@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Luxury 3-Bedroom Flat in Awka",
+    "price": "₦1,200,000/year",
+    "location": "Awka, Anambra",
+    "category": "Rent",
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "image": "https://images.privateproperty.com.ng/large/luxury-standard-two-and-three-bedroom-flat-at-okpuno-awka-anambra-state-available-for-rent-NFZuNLLHAT6H51YxF75w.jpeg"
+  },
+  {
+  "id": 2,
+  "title": "Beautiful 5-Bedroom Duplex",
+  "price": "₦150,000,000",
+  "location": "Awka, Anambra",
+  "category": "Sale",
+  "bedrooms": 5,
+  "bathrooms": 6,
+  "image": "https://images.nigeriapropertycentre.com/properties/images/2663601/06787ef1e5288d-exquisitely-designed-5-bedroom-duplex-detached-duplexes-for-sale-awka-anambra.jpg"
+},
+  {
+    "id": 3,
+    "title": "Executive Hotel Suite in Onitsha",
+    "price": "₦45,000/night",
+    "location": "Onitsha, Anambra",
+    "category": "Hospitality",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_267,q_40,w_400/partner-images/ba/94/b7bf92e780d1cdcebceb6c5cec9c0dbc30d526bcbb266f3c2e8259f06340.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Cozy Shortlet Apartment",
+    "price": "₦20,000/night",
+    "location": "Awka, Anambra",
+    "category": "Shortlet",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-1386299475862623133/original/bfe6932b-54a0-4e28-a2c2-13b9538c6eca.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Prime Residential Land",
+    "price": "₦8,000,000",
+    "location": "Nnewi, Anambra",
+    "category": "Sale",
+    "bedrooms": null,
+    "bathrooms": null,
+    "image": "https://images.nigeriapropertycentre.com/properties/images/3263053/0694862c5f3457-35-plots-of-land-for-commercial-industrial-use-for-sale-awka-anambra.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Modern Guest House Room",
+    "price": "₦25,000/night",
+    "location": "Onitsha, Anambra",
+    "category": "Hospitality",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/5a/b8/5c/executive-bedroom-view.jpg?w=300&h=-1&s=1"
+  }
+]

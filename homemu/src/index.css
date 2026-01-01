@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Custom lemon-green palette */
+@theme {
+  --color-lemongreen: #9ACD32;
+  --color-lemongreen-dark: #7CB305;
+  --color-lemongreen-light: #A8E63A;
+}
+
+/* Global styles */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  @apply bg-gray-50 text-gray-900 transition-colors duration-300;
+}
+
+/* Dark mode overrides - Tailwind standard way */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.dark .bg-white {
+  @apply bg-gray-800;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-900;
+}
+
+.dark .text-gray-800 {
+  @apply text-gray-100;
+}
+
+.dark .text-gray-600 {
+  @apply text-gray-300;
+}
+
+.dark .border-gray-300 {
+  @apply border-gray-600;
+}
+
+/* Keep lemon-green vibrant in dark mode */
+.dark .bg-lemongreen {
+  @apply bg-lemongreen-dark;
+}
+
+.dark .text-lemongreen {
+  @apply text-lemongreen-light;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float { animation: float 6s ease-in-out infinite; }
+.animate-float-delayed { animation: float 8s ease-in-out infinite; animation-delay: 2s; }
+.animate-fade-in { animation: fade-in 1s ease-out; }
+.animate-fade-in-delayed { animation: fade-in 1.5s ease-out; }
