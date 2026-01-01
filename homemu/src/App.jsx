@@ -19,7 +19,7 @@ function App() {
         {/* THIS IS THE MISSING PART — Header must be here */}
         <Header />
 
-        <main className="flex-grow">
+        <main className="grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/listings" element={<Listings />} />
